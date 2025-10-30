@@ -1,0 +1,38 @@
+Unutar stranice pictures.html, staviti sliku koja se nalazi u prilogu na Merlinu za ovaj zadatak, te od te slike napraviti slikovnu mapu, gdje se odabirom na određeni predmet na slici otvara stranicu na internetu. Pripaziti na organizaciju projekta, na relativne i apsolutne putanje, te koristiti semantičke elemente za dijelove HTML dokumenta.
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<title>Pictures</title>
+</head>
+<body>
+	<h1>Slikovna mapa</h1>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="pictures.html">Pictures</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="social.html">Social</a></li>
+		</ul>
+	</nav>
+	<figure>
+		<img src="images\Pictures.jpeg" alt="Radna površina" 
+		usemap="#mapa">
+
+		<map name="mapa">
+			<area shape="rect" coords="644, 790, 1580, 1194"
+				href="https://en.wikipedia.org/wiki/Musical_keyboard" alt="Tipkovnica">
+			<area shape="rect" coords="1300, 285, 1355, 735"
+				href="https://en.wikipedia.org/wiki/Slavoljub_Eduard_Penkala" alt=Penkalo">
+			<area shape="rect" coords="1385, 40, 1820, 740"
+				href="https://en.wikipedia.org/wiki/Laptop" alt="Bilježnica">
+			<area shape="rect" coords="1630, 820, 1820, 1200"
+				href="https://en.wikipedia.org/wiki/Mouse" alt="Miš">
+
+		</map>
+		<figcaption>Klikom na predmet otvara se Wikipedia stranica.		
+		</figcaption>
+	</figure>
+</body>
+</html>

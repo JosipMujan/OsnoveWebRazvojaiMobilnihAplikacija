@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"	
+	content="width=device-width, initial-scale=1.0">
+	<title> Moja omiljena živina </title>
+</head>
+<body>
+	<h1>Moja omiljena zivina je Sivi Sokol</h1>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li><a href="pictures.html">Pictures</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="social.html">Social</a></li>
+		</ul>
+	</nav>
+
+
+		<h2>Zamislio stari sokol da ce umrijeti</h2>
+
+		<p>Sokol je grabežljiva ptica iz porodice Falconidae, poznata po iznimnoj brzini, oštrom vidu i preciznom lovu.
+To je jedna od najbržih životinja na svijetu — vrste poput sivog sokola (peregrine falcon) mogu doseći brzinu i do 320 km/h u obrušavanju na plijen.
+Sokoli žive na gotovo svim kontinentima i prilagođeni su različitim staništima – od planina do urbanih područja.
+		</p>
+
+		<h3>Sto jede sivi sokol</h3>
+			<ul>
+				<li>Male ptice</li>
+				<li>Glodavce</li>
+				<li>Kukce</li>
+			</ul>
+
+		<p>Vise informacija o sivom sokolu:
+			<a href="https://hr.wikipedia.org/wiki/Sivi_sokol">Sivi Sokol</a>
+
+		<figure>
+			<img src="ProjektLV1\images\Sivi_Sokol.jpg" alt="Slika sivog sokola">
+			<figcaption>Sivi sokol s plijenom u Novoj Škotskoj (Kanada)</figcaption>
+		</figure>
+
+</body>
+</html>
+
+		
+		
+	

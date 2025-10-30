@@ -1,0 +1,58 @@
+Kreirati web stranicu koja se sastoji od nekoliko lokalnih HTML dokumenata koji su povezani
+navigacijskim dijelom. Ista struktura stranice se koristi u svim HTML dokumentima, uključujući
+isti navigacijski dio.
+Kada se odabere veza, dobiva se dojama kako se ostaje u istom dokumentu, samo se sadržaj
+mijenja. Ovo je jedan od učestalih načina na koji se kreira web stranica. Kako se odabire veza,
+otvara se nova stranica i mijenja se naslov i sadržaj, a onemogućava se odabrana veza na istu
+stranici.
+Unutar stranice Home.html će se prikazati stranica o vašoj omiljenoj životinji (kratak opis, slika
+životinje, natuknice o karakteristikama te link na dodatne informacije o toj životinji).
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Moja omiljena živina </title>
+</head>
+<body>
+	<h1>Moja omiljena zivina je Sivi Sokol</h1>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li><a href="pictures.html">Pictures</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="social.html">Social</a></li>
+		</ul>
+	</nav>
+
+
+		<h2>Zamislio stari sokol da ce umrijeti</h2>
+
+		<p>Sokol je grabežljiva ptica iz porodice Falconidae, poznata po iznimnoj brzini, oštrom vidu i preciznom lovu.
+To je jedna od najbržih životinja na svijetu — vrste poput sivog sokola (peregrine falcon) mogu doseći brzinu i do 320 km/h u obrušavanju na plijen.
+Sokoli žive na gotovo svim kontinentima i prilagođeni su različitim staništima – od planina do urbanih područja.
+		</p>
+
+		<h3>Sto jede sivi sokol</h3>
+			<ul>
+				<li>Male ptice</li>
+				<li>Glodavce</li>
+				<li>Kukce</li>
+			</ul>
+
+		<p>Vise informacija o sivom sokolu:
+			<a href="https://hr.wikipedia.org/wiki/Sivi_sokol" target="_blank">Sivi Sokol</a>
+
+		<figure>
+			<img src="images\SiviSokol.jpg" alt="Slika sivog sokola">
+			<figcaption>Sivi sokol s plijenom u Novoj Škotskoj (Kanada)</figcaption>
+		</figure>
+
+</body>
+</html>
+
+		
+		
+	
